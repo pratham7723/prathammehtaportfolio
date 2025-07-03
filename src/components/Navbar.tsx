@@ -46,7 +46,7 @@ const Navbar = () => {
           
           <Button asChild>
             <a
-              href="/pratham_mehta.pdf"
+              href="/Pratham_mehta.pdf"
               download
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
