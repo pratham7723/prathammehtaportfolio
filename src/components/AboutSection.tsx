@@ -19,21 +19,16 @@ const AboutSection = () => {
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold mb-8">About Me</h2>
             <div className="space-y-6 text-lg leading-relaxed text-zinc-300">
-              <p>
-                I’m a passionate full-stack developer skilled in crafting responsive, user-friendly web applications
-                using modern technologies. With strong proficiency in HTML, CSS, JavaScript, and Java, I focus on building
-                dynamic and scalable websites that look great and perform even better.
-              </p>
-              <p>
-                I work extensively with React.js for frontend development and Node.js with MongoDB for efficient,
-                high-performance backends. I also utilize tools like Google Apps Script to automate tasks and enhance
-                workflows within the Google Workspace ecosystem.
-              </p>
-              <p>
-                Apart from coding, I explore AI-driven tools like Midjourney and Canva to deliver creative design solutions.
-                Whether it’s developing a custom dashboard, designing a landing page, or building a complete web platform,
-                I’m committed to delivering professional results that align with user needs and business goals.
-              </p>
+            <p>I’m a passionate <strong>full-stack developer</strong> dedicated to building clean, responsive, and high-performing web applications. I specialize in modern technologies like <strong>HTML, CSS, JavaScript</strong>, and <strong>Java</strong>, crafting solutions that are both scalable and user-centric.</p>
+
+<p>On the frontend, I harness the power of <strong>React.js</strong> to create seamless, interactive interfaces. On the backend, I work extensively with <strong>Node.js</strong> and <strong>MongoDB</strong>, delivering robust, API-driven architectures that prioritize speed, efficiency, and maintainability.</p>
+
+<p>Beyond web development, I leverage tools like <strong>Google Apps Script</strong> to automate business workflows within the Google Workspace ecosystem, increasing productivity and streamlining operations.</p>
+
+<p>I also explore the creative side of tech—integrating <strong>AI-powered tools</strong> like <strong>Midjourney</strong> and <strong>Canva</strong> to design visually engaging dashboards, landing pages, and full-stack platforms.</p>
+
+<p>Whether you need a custom dashboard, a dynamic web app, or a complete platform from scratch, I bring a strong blend of technical depth, creative thinking, and a commitment to quality that aligns with your vision and business goals.</p>
+
             </div>
           </div>
         </div>

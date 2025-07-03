@@ -8,8 +8,8 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-0">
-              <div className="text-5xl lg:text-6xl font-normal text-foreground leading-tight">
-                Hello I'am <span className="font-bold">Pratham Mehta</span>
+              <div className="flex flex-wrap items-center text-5xl lg:text-6xl font-normal text-foreground leading-tight">
+                Hello I'am&nbsp;<span className="font-bold">Pratham Mehta</span>
               </div>
               <div className="text-5xl lg:text-6xl font-bold text-foreground">
                 Full-Stack{" "}
@@ -32,25 +32,55 @@ const HeroSection = () => {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              As a dedicated web developer, I specialize in creating dynamic and responsive websites tailored 
-              to your needs. With expertise in HTML, CSS, JavaScript, and various frameworks, I transform ideas into 
-              visually appealing and functional digital experiences. My passion for coding and attention to detail ensures 
-              high-quality solutions that enhance user engagement and drive business success.
+            As a passionate web developer, I bring your ideas to life by crafting dynamic, responsive websites that not only look stunning but perform flawlessly. With expertise in HTML, CSS, JavaScript, and cutting-edge frameworks, I transform concepts into immersive digital experiences. My focus on clean code and user-centric design ensures seamless navigation and increased engagement, empowering your business to thrive in the digital world. Let’s build something exceptional together that drives results and leaves a lasting impression.
+
+
             </p>
 
             <div className="flex space-x-4">
-              
-              <a href="https://www.instagram.com/pratham_773_/" target="_blank" rel="noopener noreferrer" className="p-3 border border-border rounded-lg hover:bg-muted transition-colors">
+              <a
+                href="https://www.instagram.com/pratham_773_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative group p-3 border border-border rounded-lg hover:bg-muted transition-colors"
+              >
                 <Instagram className="w-5 h-5 text-foreground" />
+                <span className="absolute left-1/2 -bottom-8 -translate-x-1/2 px-2 py-1 rounded bg-black text-white text-xs opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all pointer-events-none whitespace-nowrap z-10">
+                  Instagram
+                </span>
               </a>
-              <a href="https://www.linkedin.com/in/prathammehta773/" target="_blank" rel="noopener noreferrer" className="p-3 border border-border rounded-lg hover:bg-muted transition-colors">
+              <a
+                href="https://www.linkedin.com/in/prathammehta773/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative group p-3 border border-border rounded-lg hover:bg-muted transition-colors"
+              >
                 <Linkedin className="w-5 h-5 text-foreground" />
+                <span className="absolute left-1/2 -bottom-8 -translate-x-1/2 px-2 py-1 rounded bg-black text-white text-xs opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all pointer-events-none whitespace-nowrap z-10">
+                  LinkedIn
+                </span>
               </a>
-              <a href="https://github.com/pratham7723" target="_blank" rel="noopener noreferrer" className="p-3 border border-border rounded-lg hover:bg-muted transition-colors">
+              <a
+                href="https://github.com/pratham7723"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative group p-3 border border-border rounded-lg hover:bg-muted transition-colors"
+              >
                 <Github className="w-5 h-5 text-foreground" />
+                <span className="absolute left-1/2 -bottom-8 -translate-x-1/2 px-2 py-1 rounded bg-black text-white text-xs opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all pointer-events-none whitespace-nowrap z-10">
+                  GitHub
+                </span>
               </a>
-              <a href="https://wa.me/917016498352" target="_blank" rel="noopener noreferrer" className="p-3 border border-border rounded-lg hover:bg-muted transition-colors">
+              <a
+                href="https://wa.me/917016498352"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative group p-3 border border-border rounded-lg hover:bg-muted transition-colors"
+              >
                 <MessageCircle className="w-5 h-5 text-foreground" />
+                <span className="absolute left-1/2 -bottom-8 -translate-x-1/2 px-2 py-1 rounded bg-black text-white text-xs opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all pointer-events-none whitespace-nowrap z-10">
+                  WhatsApp
+                </span>
               </a>
             </div>
           </div>

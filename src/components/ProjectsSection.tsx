@@ -15,7 +15,7 @@ const ProjectsSection = () => {
         "Developed an AR-based dining app using React, Node.js, and MongoDB. Users scan QR codes to view animated 3D models of dishes with plating, portion sizes, and dietary info. Built a real-time dashboard for restaurants to manage live orders and track progress.",
       image: arRestaurantImg,
       technologies: ["React", "Node.js", "MongoDB"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/pratham7723/foodqr",
     },
     {
       id: "02",
@@ -25,7 +25,7 @@ const ProjectsSection = () => {
         "Developed a gift shop website using HTML, CSS, and Java, featuring a clean, intuitive design with responsive layouts and user-friendly navigation. Focused on delivering an engaging user experience and showcasing products effectively.",
       image: giftShopImg,
       technologies: ["HTML", "CSS", "Java"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/pratham7723/shopycloud",
     },
     {
       id: "03",
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
         "An app designed to help businesses efficiently manage and send multiple PDFs. Built using React Native, this app allows users to select a category, and it automatically sends all associated PDFs via WhatsApp with just one click.",
       image: pdfSenderImg,
       technologies: ["React Native", "JavaScript", "WhatsApp API"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/pratham7723/sharemypdf",
     },
     {
       id: "04",
@@ -43,7 +43,7 @@ const ProjectsSection = () => {
         "Developed a virtual stock market simulation using Google Sheets and Google Forms, integrated with Apps Script (JavaScript), allowing users to view stock prices, buy/sell stocks, and track their portfolio and bank balance.",
       image: stockMarketImg,
       technologies: ["Google Apps Script", "Sheets", "Forms"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/pratham7723/",
     },
   ];
 
