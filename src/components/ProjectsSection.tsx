@@ -1,15 +1,25 @@
-import { Github } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 import giftShopImg from "@/assets/shopycloud.jpg";
 import arRestaurantImg from "@/assets/flavourfusion.jpg";
 import stockMarketImg from "@/assets/stockmarket.jpg";
 import pdfSenderImg from "@/assets/sharemypdf.jpg";
+import scaninImg from "@/assets/Scanin.png";
 
 const ProjectsSection = () => {
   const projects = [
     {
       id: "01",
+      title: "Scan in",
+      description:"Multi-tenant app supporting QR-based student check-ins and RBAC for classrooms and timetables. Delivered real-time dashboards, exportable reports, and bulk ID card generation via CSV upload, saving 10+ hours/week in admin work.Designed student ID card generation system with bulk CSV upload for easy printing",
+      image: scaninImg,
+      technologies: ["Next.js"],
+      githubUrl: "https://github.com/pratham7723/",
+      liveUrl: "https://scanin-psi.vercel.app",
+    },
+    {
+      id: "02",
       title: "AR Based Restaurant Management System",
       description:
         "Developed an AR-based dining app using React, Node.js, and MongoDB. Users scan QR codes to view animated 3D models of dishes with plating, portion sizes, and dietary info. Built a real-time dashboard for restaurants to manage live orders and track progress.",
@@ -18,7 +28,7 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/pratham7723/foodqr",
     },
     {
-      id: "02",
+      id: "03",
       
       title: "Gift Shop Website",
       description:
@@ -28,7 +38,7 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/pratham7723/shopycloud",
     },
     {
-      id: "03",
+      id: "04",
       title: "PDF Bulk Sender",
       description:
         "An app designed to help businesses efficiently manage and send multiple PDFs. Built using React Native, this app allows users to select a category, and it automatically sends all associated PDFs via WhatsApp with just one click.",
@@ -37,7 +47,7 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/pratham7723/sharemypdf",
     },
     {
-      id: "04",
+      id: "05",
       title: "Virtual Stock Market",
       description:
         "Developed a virtual stock market simulation using Google Sheets and Google Forms, integrated with Apps Script (JavaScript), allowing users to view stock prices, buy/sell stocks, and track their portfolio and bank balance.",
@@ -45,6 +55,7 @@ const ProjectsSection = () => {
       technologies: ["Google Apps Script", "Sheets", "Forms"],
       githubUrl: "https://github.com/pratham7723/",
     },
+    
   ];
 
   return (
@@ -97,6 +108,17 @@ const ProjectsSection = () => {
                     <Github className="w-4 h-4 group-hover:text-white transition-colors" />
                     <span>Source Code</span>
                   </a>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group inline-flex items-center space-x-2 border border-border px-4 py-2 rounded-md text-sm text-foreground transition-all duration-200 hover:bg-primary hover:text-primary-foreground"
+                    >
+                      <ExternalLink className="w-4 h-4 group-hover:text-primary-foreground transition-colors" />
+                      <span>Live Demo</span>
+                    </a>
+                  )}
                 </div>
               </div>
 
